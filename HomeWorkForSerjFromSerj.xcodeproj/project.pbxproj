@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2137F474750EF51412022E4C /* Pods_HomeWorkForSerjFromSerj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */; };
+		ED9E5DAB241E25650062A660 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DAA241E25650062A660 /* MainTabView.swift */; };
+		EDA48DAA241E16F300261374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DA9241E16F300261374 /* AppDelegate.swift */; };
+		EDA48DAC241E16F300261374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DAB241E16F300261374 /* SceneDelegate.swift */; };
+		EDA48DAF241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DAD241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld */; };
+		EDA48DB1241E16F300261374 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DB0241E16F300261374 /* ContentView.swift */; };
+		EDA48DB3241E16F500261374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA48DB2241E16F500261374 /* Assets.xcassets */; };
+		EDA48DB6241E16F500261374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA48DB5241E16F500261374 /* Preview Assets.xcassets */; };
+		EDA48DB9241E16F500261374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA48DB7241E16F500261374 /* LaunchScreen.storyboard */; };
+		EDB83281241E1D0700B9A63B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */; };
+		EDB83285241E1FDE00B9A63B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB83284241E1FDE00B9A63B /* SignUpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		663B30C4EE135EA49171AFBB /* Pods-HomeWorkForSerjFromSerj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWorkForSerjFromSerj.debug.xcconfig"; path = "Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA09A67CC1C15922D6BFC1C /* Pods-HomeWorkForSerjFromSerj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWorkForSerjFromSerj.release.xcconfig"; path = "Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj.release.xcconfig"; sourceTree = "<group>"; };
+		CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWorkForSerjFromSerj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9E5DAA241E25650062A660 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		EDA48DA6241E16F300261374 /* HomeWorkForSerjFromSerj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkForSerjFromSerj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA48DA9241E16F300261374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA48DAB241E16F300261374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDA48DAE241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HomeWorkForSerjFromSerj.xcdatamodel; sourceTree = "<group>"; };
+		EDA48DB0241E16F300261374 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDA48DB2241E16F500261374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA48DB5241E16F500261374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA48DB8241E16F500261374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA48DBA241E16F500261374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDB83284241E1FDE00B9A63B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA48DA3241E16F300261374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2137F474750EF51412022E4C /* Pods_HomeWorkForSerjFromSerj.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D47FA005C88348D9FF98FC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663B30C4EE135EA49171AFBB /* Pods-HomeWorkForSerjFromSerj.debug.xcconfig */,
+				BDA09A67CC1C15922D6BFC1C /* Pods-HomeWorkForSerjFromSerj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEE38E5BBBC7A2FEBB634650 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDA48D9D241E16F300261374 = {
+			isa = PBXGroup;
+			children = (
+				EDA48DA8241E16F300261374 /* HomeWorkForSerjFromSerj */,
+				EDA48DA7241E16F300261374 /* Products */,
+				3D47FA005C88348D9FF98FC0 /* Pods */,
+				DEE38E5BBBC7A2FEBB634650 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA48DA7241E16F300261374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DA6241E16F300261374 /* HomeWorkForSerjFromSerj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA48DA8241E16F300261374 /* HomeWorkForSerjFromSerj */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DA9241E16F300261374 /* AppDelegate.swift */,
+				EDA48DAB241E16F300261374 /* SceneDelegate.swift */,
+				EDB83283241E1FD100B9A63B /* Modules */,
+				EDB83282241E1FBE00B9A63B /* Supporting Files */,
+				EDA48DB4241E16F500261374 /* Preview Content */,
+			);
+			path = HomeWorkForSerjFromSerj;
+			sourceTree = "<group>";
+		};
+		EDA48DB4241E16F500261374 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DB5241E16F500261374 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDB83282241E1FBE00B9A63B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DB2241E16F500261374 /* Assets.xcassets */,
+				EDA48DB7241E16F500261374 /* LaunchScreen.storyboard */,
+				EDA48DBA241E16F500261374 /* Info.plist */,
+				EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */,
+				EDA48DAD241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB83283241E1FD100B9A63B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DB0241E16F300261374 /* ContentView.swift */,
+				EDB83284241E1FDE00B9A63B /* SignUpView.swift */,
+				ED9E5DAA241E25650062A660 /* MainTabView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA48DA5241E16F300261374 /* HomeWorkForSerjFromSerj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA48DBD241E16F500261374 /* Build configuration list for PBXNativeTarget "HomeWorkForSerjFromSerj" */;
+			buildPhases = (
+				666A09CE7310DEE8C5695D03 /* [CP] Check Pods Manifest.lock */,
+				EDA48DA2241E16F300261374 /* Sources */,
+				EDA48DA3241E16F300261374 /* Frameworks */,
+				EDA48DA4241E16F300261374 /* Resources */,
+				5823CA8B15B54FD4FCE894E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeWorkForSerjFromSerj;
+			productName = HomeWorkForSerjFromSerj;
+			productReference = EDA48DA6241E16F300261374 /* HomeWorkForSerjFromSerj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA48D9E241E16F300261374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Serhii Rosovskyi";
+				TargetAttributes = {
+					EDA48DA5241E16F300261374 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = EDA48DA1241E16F300261374 /* Build configuration list for PBXProject "HomeWorkForSerjFromSerj" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA48D9D241E16F300261374;
+			productRefGroup = EDA48DA7241E16F300261374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA48DA5241E16F300261374 /* HomeWorkForSerjFromSerj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA48DA4241E16F300261374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA48DB9241E16F500261374 /* LaunchScreen.storyboard in Resources */,
+				EDB83281241E1D0700B9A63B /* GoogleService-Info.plist in Resources */,
+				EDA48DB6241E16F500261374 /* Preview Assets.xcassets in Resources */,
+				EDA48DB3241E16F500261374 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5823CA8B15B54FD4FCE894E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666A09CE7310DEE8C5695D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWorkForSerjFromSerj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA48DA2241E16F300261374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA48DAA241E16F300261374 /* AppDelegate.swift in Sources */,
+				EDB83285241E1FDE00B9A63B /* SignUpView.swift in Sources */,
+				EDA48DAC241E16F300261374 /* SceneDelegate.swift in Sources */,
+				EDA48DB1241E16F300261374 /* ContentView.swift in Sources */,
+				EDA48DAF241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld in Sources */,
+				ED9E5DAB241E25650062A660 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA48DB7241E16F500261374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA48DB8241E16F500261374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA48DBB241E16F500261374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA48DBC241E16F500261374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA48DBE241E16F500261374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663B30C4EE135EA49171AFBB /* Pods-HomeWorkForSerjFromSerj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeWorkForSerjFromSerj/Preview Content\"";
+				DEVELOPMENT_TEAM = FT3L86TF89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Volpis.HomeWorkForSerjFromSerj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA48DBF241E16F500261374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA09A67CC1C15922D6BFC1C /* Pods-HomeWorkForSerjFromSerj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeWorkForSerjFromSerj/Preview Content\"";
+				DEVELOPMENT_TEAM = FT3L86TF89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Volpis.HomeWorkForSerjFromSerj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA48DA1241E16F300261374 /* Build configuration list for PBXProject "HomeWorkForSerjFromSerj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA48DBB241E16F500261374 /* Debug */,
+				EDA48DBC241E16F500261374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA48DBD241E16F500261374 /* Build configuration list for PBXNativeTarget "HomeWorkForSerjFromSerj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA48DBE241E16F500261374 /* Debug */,
+				EDA48DBF241E16F500261374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDA48DAD241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDA48DAE241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodel */,
+			);
+			currentVersion = EDA48DAE241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodel */;
+			path = HomeWorkForSerjFromSerj.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDA48D9E241E16F300261374 /* Project object */;
+}
