@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		2137F474750EF51412022E4C /* Pods_HomeWorkForSerjFromSerj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */; };
 		ED9E5DAB241E25650062A660 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DAA241E25650062A660 /* MainTabView.swift */; };
+		ED9E5DAE241E293D0062A660 /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DAD241E293D0062A660 /* FacebookLoginButton.swift */; };
+		ED9E5DB32420B4520062A660 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DB22420B4520062A660 /* Note.swift */; };
+		ED9E5DB62420B4720062A660 /* NoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DB52420B4720062A660 /* NoteManager.swift */; };
+		ED9E5DB82420B4910062A660 /* NoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DB72420B4910062A660 /* NoteRowView.swift */; };
+		ED9E5DBA2420B4B30062A660 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DB92420B4B30062A660 /* NoteListView.swift */; };
+		ED9E5DBC2420B4C20062A660 /* AddNewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DBB2420B4C20062A660 /* AddNewNoteView.swift */; };
+		ED9E5DBE2420CA6C0062A660 /* ChosenTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DBD2420CA6C0062A660 /* ChosenTab.swift */; };
 		EDA48DAA241E16F300261374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DA9241E16F300261374 /* AppDelegate.swift */; };
 		EDA48DAC241E16F300261374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DAB241E16F300261374 /* SceneDelegate.swift */; };
 		EDA48DAF241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDA48DAD241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld */; };
@@ -16,8 +23,11 @@
 		EDA48DB3241E16F500261374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA48DB2241E16F500261374 /* Assets.xcassets */; };
 		EDA48DB6241E16F500261374 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA48DB5241E16F500261374 /* Preview Assets.xcassets */; };
 		EDA48DB9241E16F500261374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA48DB7241E16F500261374 /* LaunchScreen.storyboard */; };
+		EDA952642426443600A6AD8D /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA952632426443600A6AD8D /* TextView.swift */; };
+		EDA95266242645CE00A6AD8D /* NoteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA95265242645CE00A6AD8D /* NoteType.swift */; };
 		EDB83281241E1D0700B9A63B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */; };
 		EDB83285241E1FDE00B9A63B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB83284241E1FDE00B9A63B /* SignUpView.swift */; };
+		EDD0D5F12429FC5200747072 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0D5F02429FC5200747072 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +35,13 @@
 		BDA09A67CC1C15922D6BFC1C /* Pods-HomeWorkForSerjFromSerj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWorkForSerjFromSerj.release.xcconfig"; path = "Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj.release.xcconfig"; sourceTree = "<group>"; };
 		CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWorkForSerjFromSerj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9E5DAA241E25650062A660 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		ED9E5DAD241E293D0062A660 /* FacebookLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
+		ED9E5DB22420B4520062A660 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		ED9E5DB52420B4720062A660 /* NoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteManager.swift; sourceTree = "<group>"; };
+		ED9E5DB72420B4910062A660 /* NoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRowView.swift; sourceTree = "<group>"; };
+		ED9E5DB92420B4B30062A660 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		ED9E5DBB2420B4C20062A660 /* AddNewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNoteView.swift; sourceTree = "<group>"; };
+		ED9E5DBD2420CA6C0062A660 /* ChosenTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenTab.swift; sourceTree = "<group>"; };
 		EDA48DA6241E16F300261374 /* HomeWorkForSerjFromSerj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkForSerjFromSerj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA48DA9241E16F300261374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA48DAB241E16F300261374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +51,11 @@
 		EDA48DB5241E16F500261374 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDA48DB8241E16F500261374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA48DBA241E16F500261374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA952632426443600A6AD8D /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		EDA95265242645CE00A6AD8D /* NoteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteType.swift; sourceTree = "<group>"; };
 		EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDB83284241E1FDE00B9A63B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EDD0D5F02429FC5200747072 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +87,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ED9E5DAC241E29270062A660 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DB0241E16F300261374 /* ContentView.swift */,
+				EDB83284241E1FDE00B9A63B /* SignUpView.swift */,
+				ED9E5DAD241E293D0062A660 /* FacebookLoginButton.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ED9E5DAF241E29CE0062A660 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E5DAA241E25650062A660 /* MainTabView.swift */,
+				ED9E5DB72420B4910062A660 /* NoteRowView.swift */,
+				ED9E5DB92420B4B30062A660 /* NoteListView.swift */,
+				ED9E5DBB2420B4C20062A660 /* AddNewNoteView.swift */,
+				EDD0D5F02429FC5200747072 /* ProfileView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ED9E5DB0241E2A600062A660 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDA48DB2241E16F500261374 /* Assets.xcassets */,
+				EDA48DBA241E16F500261374 /* Info.plist */,
+				EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED9E5DB12420B4490062A660 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E5DB22420B4520062A660 /* Note.swift */,
+				ED9E5DBD2420CA6C0062A660 /* ChosenTab.swift */,
+				EDA95265242645CE00A6AD8D /* NoteType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED9E5DB42420B4680062A660 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E5DB52420B4720062A660 /* NoteManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		EDA48D9D241E16F300261374 = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +160,11 @@
 			children = (
 				EDA48DA9241E16F300261374 /* AppDelegate.swift */,
 				EDA48DAB241E16F300261374 /* SceneDelegate.swift */,
+				EDA952612426442600A6AD8D /* Helpers */,
+				ED9E5DB12420B4490062A660 /* Model */,
+				ED9E5DB42420B4680062A660 /* Managers */,
 				EDB83283241E1FD100B9A63B /* Modules */,
+				ED9E5DB0241E2A600062A660 /* Resources */,
 				EDB83282241E1FBE00B9A63B /* Supporting Files */,
 				EDA48DB4241E16F500261374 /* Preview Content */,
 			);
@@ -105,13 +179,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EDA952612426442600A6AD8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA952622426442F00A6AD8D /* CustomUI */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EDA952622426442F00A6AD8D /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				EDA952632426443600A6AD8D /* TextView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
 		EDB83282241E1FBE00B9A63B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EDA48DB2241E16F500261374 /* Assets.xcassets */,
 				EDA48DB7241E16F500261374 /* LaunchScreen.storyboard */,
-				EDA48DBA241E16F500261374 /* Info.plist */,
-				EDB83280241E1D0600B9A63B /* GoogleService-Info.plist */,
 				EDA48DAD241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld */,
 			);
 			path = "Supporting Files";
@@ -120,9 +207,8 @@
 		EDB83283241E1FD100B9A63B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				EDA48DB0241E16F300261374 /* ContentView.swift */,
-				EDB83284241E1FDE00B9A63B /* SignUpView.swift */,
-				ED9E5DAA241E25650062A660 /* MainTabView.swift */,
+				ED9E5DAC241E29270062A660 /* Login */,
+				ED9E5DAF241E29CE0062A660 /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -243,12 +329,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA95266242645CE00A6AD8D /* NoteType.swift in Sources */,
 				EDA48DAA241E16F300261374 /* AppDelegate.swift in Sources */,
 				EDB83285241E1FDE00B9A63B /* SignUpView.swift in Sources */,
 				EDA48DAC241E16F300261374 /* SceneDelegate.swift in Sources */,
+				EDA952642426443600A6AD8D /* TextView.swift in Sources */,
+				ED9E5DB62420B4720062A660 /* NoteManager.swift in Sources */,
 				EDA48DB1241E16F300261374 /* ContentView.swift in Sources */,
+				ED9E5DAE241E293D0062A660 /* FacebookLoginButton.swift in Sources */,
+				EDD0D5F12429FC5200747072 /* ProfileView.swift in Sources */,
+				ED9E5DB32420B4520062A660 /* Note.swift in Sources */,
+				ED9E5DBA2420B4B30062A660 /* NoteListView.swift in Sources */,
+				ED9E5DB82420B4910062A660 /* NoteRowView.swift in Sources */,
 				EDA48DAF241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld in Sources */,
+				ED9E5DBE2420CA6C0062A660 /* ChosenTab.swift in Sources */,
 				ED9E5DAB241E25650062A660 /* MainTabView.swift in Sources */,
+				ED9E5DBC2420B4C20062A660 /* AddNewNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,8 +485,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HomeWorkForSerjFromSerj/Preview Content\"";
 				DEVELOPMENT_TEAM = FT3L86TF89;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
-				"INFOPLIST_FILE[sdk=*]" = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
+				INFOPLIST_FILE = HomeWorkForSerjFromSerj/Resources/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = HomeWorkForSerjFromSerj/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,8 +507,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HomeWorkForSerjFromSerj/Preview Content\"";
 				DEVELOPMENT_TEAM = FT3L86TF89;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
-				"INFOPLIST_FILE[sdk=*]" = "HomeWorkForSerjFromSerj/Supporting Files/Info.plist";
+				INFOPLIST_FILE = HomeWorkForSerjFromSerj/Resources/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = HomeWorkForSerjFromSerj/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
