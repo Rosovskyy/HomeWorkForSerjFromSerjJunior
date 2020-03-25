@@ -17,7 +17,7 @@ struct NotesListView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(chosenTab == .all ? noteManager.notes : chosenTab == .favorites ? noteManager.notes.filter { $0.isFavorite } : noteManager.notes.filter { $0.isDeleted }) { note in
+                ForEach(chosenTab == .all ? noteManager.notes : chosenTab == .favorites ? noteManager.notes.filter { $0.isFavorite } : noteManager.deletedNotes) { note in
                     NoteRowView(note: note)
                 }
                .onMove(perform: move(from:to:))
@@ -50,7 +50,13 @@ struct NotesListView: View {
     }
     
     func delete(for offset: IndexSet) {
-        noteManager.notes.remove(atOffsets: offset)
+        if chosenTab != .deleted {
+            noteManager.notes[offset.first ?? 0].isDeleted = true
+            noteManager.deletedNotes.append(noteManager.notes[offset.first ?? 0])
+            noteManager.notes.remove(atOffsets: offset)
+        } else {
+            noteManager.deletedNotes.remove(atOffsets: offset)
+        }
     }
     
     func move(from offset: IndexSet, to index: Int) {

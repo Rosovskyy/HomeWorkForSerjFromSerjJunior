@@ -14,7 +14,7 @@ struct Note: Identifiable {
     let title: String
     let text: String
     let isFavorite: Bool
-    let isDeleted: Bool
+    var isDeleted: Bool
     let type: NoteType
     let createdAt: Date
     let dueDate: Date?

@@ -30,7 +30,7 @@ struct MainTabView: View {
                     Image(systemName: "3.square.fill")
                 }
             
-            ProfileView()
+            ProfileView(noteManager: noteManager)
                 .tabItem {
                     Text("Profile")
                     Image(systemName: "4.circle.fill")

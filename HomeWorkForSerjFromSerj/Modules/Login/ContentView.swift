@@ -52,7 +52,7 @@ struct ContentView: View {
                         .frame(width: 300, height: 50)
                         .background(Color.green)
                         .cornerRadius(15.0)
-                    })
+                    }).disabled(email.isEmpty && password.isEmpty)
                             
                     FacebookLoginButton()
                         .padding()

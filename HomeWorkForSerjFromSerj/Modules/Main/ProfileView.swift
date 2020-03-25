@@ -10,8 +10,14 @@ import SwiftUI
 
 struct ProfileView: View {
     
+    @ObservedObject var noteManager: NoteManager
+    
     var body: some View {
-        Text("Profile")
+        VStack {
+            Text("Number of notes: \(noteManager.notes.count)")
+            Text("Number of favorite notes: \(noteManager.notes.filter { $0.isFavorite }.count)")
+            Text("Number of deleted notes: \(noteManager.deletedNotes.count)")
+        }
     }
 }
 

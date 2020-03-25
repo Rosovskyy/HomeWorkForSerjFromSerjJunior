@@ -14,4 +14,6 @@ class NoteManager: ObservableObject {
         Note(title: "Title 2", text: "Text 2", isFavorite: false, isDeleted: false, type: .reminder, createdAt: Date(), dueDate: nil),
         Note(title: "Title 3", text: "Text 3", isFavorite: true, isDeleted: true, type: .todo, createdAt: Date(), dueDate: nil)
     ]
+    
+    @Published var deletedNotes: [Note] = []
 }
