@@ -21,7 +21,7 @@ struct NoteRowView: View {
             Text(note.text)
             
             Text(note.type.rawValue)
-            
+                        
             Spacer()
             
             if note.isFavorite {
