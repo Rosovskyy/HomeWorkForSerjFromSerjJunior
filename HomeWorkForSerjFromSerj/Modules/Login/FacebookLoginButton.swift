@@ -12,8 +12,11 @@ import Firebase
 
 struct FacebookLoginButton: UIViewRepresentable {
     
+    @Binding var fbLoggedIn: Int?
+    @Binding var user: User
+    
     func makeCoordinator() -> FacebookLoginButton.Coordinator {
-        return FacebookLoginButton.Coordinator()
+        return FacebookLoginButton.Coordinator(self)
     }
     
     func makeUIView(context: UIViewRepresentableContext<FacebookLoginButton>) -> FBLoginButton {
@@ -29,6 +32,13 @@ struct FacebookLoginButton: UIViewRepresentable {
     }
     
     class Coordinator: NSObject, LoginButtonDelegate {
+        
+        var parent: FacebookLoginButton
+        
+        init(_ parent: FacebookLoginButton) {
+            self.parent = parent
+        }
+        
         func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
             
             if error != nil {
@@ -44,6 +54,10 @@ struct FacebookLoginButton: UIViewRepresentable {
                         print(err?.localizedDescription ?? "some error :((")
                         return
                     }
+                    
+                    self.parent.fbLoggedIn = 1
+                    self.parent.user.name = res?.user.displayName ?? "No name"
+                    self.parent.user.imageURL = res?.user.photoURL ?? URL(string: "")!
                     
                     print("success")
                 }

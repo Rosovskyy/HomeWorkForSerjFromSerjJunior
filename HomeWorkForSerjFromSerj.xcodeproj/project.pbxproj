@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2137F474750EF51412022E4C /* Pods_HomeWorkForSerjFromSerj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */; };
+		ED9AF644242B95A70095C0CD /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9AF643242B95A70095C0CD /* UserManager.swift */; };
+		ED9AF646242B98490095C0CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9AF645242B98490095C0CD /* User.swift */; };
+		ED9AF64C242B9C930095C0CD /* ImageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9AF64B242B9C930095C0CD /* ImageViewContainer.swift */; };
 		ED9E5DAB241E25650062A660 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DAA241E25650062A660 /* MainTabView.swift */; };
 		ED9E5DAE241E293D0062A660 /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DAD241E293D0062A660 /* FacebookLoginButton.swift */; };
 		ED9E5DB32420B4520062A660 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E5DB22420B4520062A660 /* Note.swift */; };
@@ -34,6 +37,9 @@
 		663B30C4EE135EA49171AFBB /* Pods-HomeWorkForSerjFromSerj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWorkForSerjFromSerj.debug.xcconfig"; path = "Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj.debug.xcconfig"; sourceTree = "<group>"; };
 		BDA09A67CC1C15922D6BFC1C /* Pods-HomeWorkForSerjFromSerj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWorkForSerjFromSerj.release.xcconfig"; path = "Target Support Files/Pods-HomeWorkForSerjFromSerj/Pods-HomeWorkForSerjFromSerj.release.xcconfig"; sourceTree = "<group>"; };
 		CE8F2F857418D243836A57E3 /* Pods_HomeWorkForSerjFromSerj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWorkForSerjFromSerj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9AF643242B95A70095C0CD /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		ED9AF645242B98490095C0CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ED9AF64B242B9C930095C0CD /* ImageViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewContainer.swift; sourceTree = "<group>"; };
 		ED9E5DAA241E25650062A660 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		ED9E5DAD241E293D0062A660 /* FacebookLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
 		ED9E5DB22420B4520062A660 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
@@ -123,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9E5DB22420B4520062A660 /* Note.swift */,
+				ED9AF645242B98490095C0CD /* User.swift */,
 				ED9E5DBD2420CA6C0062A660 /* ChosenTab.swift */,
 				EDA95265242645CE00A6AD8D /* NoteType.swift */,
 			);
@@ -133,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9E5DB52420B4720062A660 /* NoteManager.swift */,
+				ED9AF643242B95A70095C0CD /* UserManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			children = (
 				ED9E5DAC241E29270062A660 /* Login */,
 				ED9E5DAF241E29CE0062A660 /* Main */,
+				ED9AF64B242B9C930095C0CD /* ImageViewContainer.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -337,14 +346,17 @@
 				ED9E5DB62420B4720062A660 /* NoteManager.swift in Sources */,
 				EDA48DB1241E16F300261374 /* ContentView.swift in Sources */,
 				ED9E5DAE241E293D0062A660 /* FacebookLoginButton.swift in Sources */,
+				ED9AF64C242B9C930095C0CD /* ImageViewContainer.swift in Sources */,
 				EDD0D5F12429FC5200747072 /* ProfileView.swift in Sources */,
 				ED9E5DB32420B4520062A660 /* Note.swift in Sources */,
 				ED9E5DBA2420B4B30062A660 /* NoteListView.swift in Sources */,
 				ED9E5DB82420B4910062A660 /* NoteRowView.swift in Sources */,
 				EDA48DAF241E16F300261374 /* HomeWorkForSerjFromSerj.xcdatamodeld in Sources */,
 				ED9E5DBE2420CA6C0062A660 /* ChosenTab.swift in Sources */,
+				ED9AF646242B98490095C0CD /* User.swift in Sources */,
 				ED9E5DAB241E25650062A660 /* MainTabView.swift in Sources */,
 				ED9E5DBC2420B4C20062A660 /* AddNewNoteView.swift in Sources */,
+				ED9AF644242B95A70095C0CD /* UserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

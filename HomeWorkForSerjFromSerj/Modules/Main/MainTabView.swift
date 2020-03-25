@@ -11,6 +11,7 @@ import SwiftUI
 struct MainTabView: View {
     
     @State private var noteManager = NoteManager()
+    @ObservedObject var user: User
         
     var body: some View {
         TabView {
@@ -30,7 +31,7 @@ struct MainTabView: View {
                     Image(systemName: "3.square.fill")
                 }
             
-            ProfileView(noteManager: noteManager)
+            ProfileView(noteManager: noteManager, user: user)
                 .tabItem {
                     Text("Profile")
                     Image(systemName: "4.circle.fill")
